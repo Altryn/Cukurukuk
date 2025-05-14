@@ -1,0 +1,112 @@
+
+:root {
+    --bgoutline:#ffffff4d;
+    --bgmain: #101930;
+    --primary: #1e3a8a;
+}
+
+main{
+    display: flex;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex: 50%;
+    padding: 1rem;
+}
+
+.form h1{
+    text-align: center;
+}
+
+.form img{
+    width: fit-content;
+    height: 20em;
+}
+
+.form input{
+    padding: .6rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--bgoutline);
+}
+
+.form textarea{
+    padding: .6rem;
+    font-size: 1.1rem;
+}
+
+.form label{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.form button{
+    width: 35%;
+    align-self: center;
+    padding: .5rem;
+    font-size: 1em;
+
+    border: 1px solid white;
+    color: white;
+    background-color: var(--primary);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex: 35%;
+
+    overflow-y: scroll;
+
+    border-left: 1px solid var(--bgoutline);
+
+    align-items: center;
+}
+
+aside h1{
+    flex: 100%;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    columns: 2;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    flex: 100%;
+    margin: 1rem;
+    border: 2px solid white;
+    padding: 1rem;
+}       
+
+.news img, .news p, .news small{
+    flex: 100%;
+}   
+
+.judul-post{
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+}
+
+.judul-post:hover{
+    color: yellow;
+}
+
+
+.news button{
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #1e3a8a;
+    text-align: center;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 13px;
+}

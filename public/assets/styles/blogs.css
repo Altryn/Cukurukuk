@@ -1,0 +1,74 @@
+body{
+    background-color: #101930;
+    color: white;
+}
+
+.button-sect{
+    margin: 1em;
+}
+
+.button-add{
+    background-color: #1e3a8a;
+    font-size: .9rem;
+    padding: .5rem;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.button-add:hover{
+    color: yellow;
+}
+
+.main-news{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 2em;
+    color: white;
+    justify-content: center;
+}
+
+.main-news h1{
+
+    flex: 100%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    border: 2px solid white;
+    padding: 1rem;
+}       
+
+.news img, .news p, .news small{
+    flex: 100%;
+}   
+
+.judul-post{
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+}
+
+.judul-post:hover{
+    color: yellow;
+}
+
+.news button{
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #1e3a8a;
+    text-align: center;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 13px;
+}

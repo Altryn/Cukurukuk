@@ -1,0 +1,17 @@
+ main{
+    padding: .5rem 2em;
+ }
+ 
+ 
+ 
+ 
+ 
+.img-container{
+    padding: 1rem 0;
+
+}
+
+.img-container img{
+    width: fit-content;
+    height: 20em;
+}

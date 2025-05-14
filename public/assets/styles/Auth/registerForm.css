@@ -1,0 +1,92 @@
+:root{
+    --bgmain : #101930;
+    --textclr: #ffffff;
+    --primaryclr: #1e3a8a;
+    --outlineclr: #ffffff4d;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bgmain);
+    color: var(--textclr);
+    font-family: 'Cal Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    flex: 100%;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+
+    border: 1px solid var(--outlineclr);
+    padding: 1em;
+
+    width: 50%;
+}
+
+form label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding:  .8rem 1rem;
+}
+
+form input{
+    margin: 0    1rem;
+
+    border: 1px solid var(--outlineclr);
+    padding: .8rem;
+    font-size: 1em;
+}
+
+form input::placeholder{
+    font-size: 1.1rem;
+}
+
+form button{
+    width: 35%;
+    align-self: center;
+    padding: .5rem;
+    font-size: 1em;
+
+    border: 1px solid white;
+    color: white;
+    background-color: var(--primaryclr);
+}
+
+form section{
+    display: flex;
+}
+
+form input[type="checkbox"]{
+    border: 1px solid white;
+}
+
+form p{
+    text-align: center;
+}
+
+form  a, a:focus, a:active {
+    color: inherit;
+    transition: .4s;
+}
+
+form a:hover{
+    color: var(--primaryclr);
+}
